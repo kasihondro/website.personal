@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Lengkap tentang PHP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+            background-color: #e8e8e8;
+            padding: 2px 4px;
+        }
+        .example {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Materi Lengkap tentang PHP</h1>
+
+    <h2>Pengenalan PHP</h2>
+    <p>PHP (Hypertext Preprocessor) adalah bahasa pemrograman server-side yang digunakan untuk mengembangkan aplikasi web. PHP sering digunakan untuk membuat situs web dinamis dan dapat berinteraksi dengan basis data.</p>
+
+    <h2>Sintaks Dasar</h2>
+    <p>Berikut adalah beberapa sintaks dasar dalam PHP:</p>
+    <pre><code>
+    &lt;?php
+        // Komentar satu baris
+        /* Komentar 
+           beberapa baris */
+
+        $nama = "John"; // Deklarasi variabel
+        $umur = 30; // Deklarasi variabel
+
+        echo $nama; // Menampilkan output
+    ?&gt;
+    </code></pre>
+
+    <h2>Tipe Data</h2>
+    <p>PHP memiliki beberapa tipe data dasar:</p>
+    <ul>
+        <li><strong>String:</strong> Teks, contoh: "Hello World"</li>
+        <li><strong>Integer:</strong> Angka bulat, contoh: 42</li>
+        <li><strong>Float:</strong> Angka desimal, contoh: 3.14</li>
+        <li><strong>Boolean:</strong> Nilai benar/salah, contoh: true atau false</li>
+        <li><strong>Array:</strong> Kumpulan nilai, contoh: array(1, 2, 3)</li>
+        <li><strong>Object:</strong> Instance dari kelas, contoh: $obj = new ClassName();</li>
+        <li><strong>NULL:</strong> Tidak ada nilai, contoh: $var = NULL;</li>
+    </ul>
+
+    <h2>Kontrol Alur</h2>
+    <p>PHP mendukung kontrol alur seperti pengkondisian dan perulangan. Berikut adalah contohnya:</p>
+    <pre><code>
+    // Pengkondisian
+    if ($umur >= 18) {
+        echo "Anda sudah dewasa.";
+    } else {
+        echo "Anda masih remaja.";
+    }
+
+    // Perulangan
+    for ($i = 0; $i < 5; $i++) {
+        echo $i . " ";
+    }
+    </code></pre>
+
+    <h2>Fungsi</h2>
+    <p>Fungsi adalah blok kode yang dapat dipanggil untuk menjalankan tugas tertentu. Berikut adalah contoh fungsi dalam PHP:</p>
+    <pre><code>
+    function sapa($nama) {
+        return "Halo, " . $nama . "!";
+    }
+
+    echo sapa("John"); // Output: Halo, John!
+    </code></pre>
+
+    <h2>Contoh Penggunaan PHP</h2>
+    <div class="example">
+        <h3>Contoh 1: Menampilkan Pesan</h3>
+        <pre><code>
+        &lt;?php
+        echo "Selamat datang di halaman ini!";
+        ?&gt;
+        </code></pre>
+    </div>
+
+    <div class="example">
+        <h3>Contoh 2: Menghitung Jumlah Dua Angka</h3>
+        <pre><code>
+        &lt;?php
+        function tambah
